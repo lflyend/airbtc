@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "BTC — Offline Signer",
+  "short_name": "BTC Offline",
+  "version": "1.1.0",
+  "description": "Offline Bitcoin key generator and signer. Fully client-side, zero remote execution.",
+  "author": "flyend",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "BTC — Offline Signer"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [],
+  "host_permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
